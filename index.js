@@ -3,7 +3,7 @@ play this: https://www.youtube.com/watch?v=d-diB65scQU
 
 Sing along:
 
-here's a little code I wrote, you might want to read it really slow, don't worry be happy
+There's a little code I wrote, you might want to read it really slow, don't worry be happy
 in every line there may be trouble, but if you worry you make it double, don't worry, be happy
 ain't got no sense of what is REST? just concentrate on learning Express, don't worry, be happy
 your file is getting way too big, bring a Router and make it thin, don't worry, be crafty
@@ -12,3 +12,19 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+<<<<<<< HEAD
+require("dotenv").config();
+
+const server = require("./server.js");
+const defaults = require("./config/defaults.js");
+
+server.listen(defaults.port, () => {
+    console.log(
+        `\n*** Server Running on http://localhost:${defaults.port} ***\n`
+    );
+});
+=======
+const server = require('./server.js')
+const port = 9000
+server.listen(port, () => console.log(`\nAPI on port ${port}\n`))
+>>>>>>> a1c8a439619b99f02b9f5535bd7ca54a5895cc8b
