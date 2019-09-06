@@ -12,6 +12,7 @@ I need this code, just don't know where, perhaps should make some middleware, do
 
 Go code!
 */
+<<<<<<< HEAD
 require("dotenv").config();
 
 const server = require("./server.js");
@@ -22,3 +23,8 @@ server.listen(defaults.port, () => {
         `\n*** Server Running on http://localhost:${defaults.port} ***\n`
     );
 });
+=======
+const server = require('./server.js')
+const port = 9000
+server.listen(port, () => console.log(`\nAPI on port ${port}\n`))
+>>>>>>> a1c8a439619b99f02b9f5535bd7ca54a5895cc8b

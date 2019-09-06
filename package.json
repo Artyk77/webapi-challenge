@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
+<<<<<<< HEAD
     "start": "node index.js"
+=======
+    "start": "node index.js",
+
+>>>>>>> a1c8a439619b99f02b9f5535bd7ca54a5895cc8b
   },
   "repository": {
     "type": "git",
@@ -22,12 +27,20 @@
   },
   "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Node-Express#readme",
   "dependencies": {
+<<<<<<< HEAD
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
     "helmet": "^3.20.0",
     "knex": "^0.19.1",
     "run": "^1.4.0",
     "server": "^1.0.19",
+=======
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.20.0",
+    "knex": "^0.19.1",
+    "morgan": "^1.9.1",
+>>>>>>> a1c8a439619b99f02b9f5535bd7ca54a5895cc8b
     "sqlite3": "^4.0.9"
   },
   "devDependencies": {
